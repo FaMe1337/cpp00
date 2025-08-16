@@ -6,7 +6,7 @@
 /*   By: fabio <fabio@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 20:40:39 by fabio             #+#    #+#             */
-/*   Updated: 2025/08/16 17:19:51 by fabio            ###   ########.fr       */
+/*   Updated: 2025/08/16 21:56:57 by fabio            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <iostream>
 # include <string>
 # include <iomanip>
+# include <cstdlib>
 
 class Contact
 {

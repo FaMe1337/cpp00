@@ -6,7 +6,7 @@
 /*   By: fabio <fabio@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 20:40:36 by fabio             #+#    #+#             */
-/*   Updated: 2025/08/16 17:57:11 by fabio            ###   ########.fr       */
+/*   Updated: 2025/08/16 18:03:48 by fabio            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void PhoneBook::getPhonebook() const
 		this->quitPhonebook();
 		if (input.empty() || this->_checkInput(input))
 		{
-			std::cout << "Please choose between 1 and 8\n";
+			std::cout << "Please choose only between 1 and 8\n";
 			continue;
 		}
 		n = atoi(input.c_str());
